@@ -10,7 +10,11 @@ The ultimate "behaviour" (in the FRP sense) of this program is the output color 
 I can't claim this is the best way to achieve this, but it works.
 
 ## Installation
-TODO: Describe the installation process
+1. Install haskell/ghc
+2. Install wx package 'cabal install wx'
+3. Install reactive banana 'cabal install reactive-banana'
+4. install reactive-banana-wx 'cabal install reactive-banana-wx'
+5. Build with ghc 'ghc ColorPicker.hs'
 
 ## Usage
 Enter decimal values for each respective color to combine into an output. Invalid values go to 0

@@ -51,10 +51,8 @@ main = start $ do
             giveNumber n = let res = readNumber n    
                             in case res of
                                 Nothing -> 0
-                                Just val -> if val < 0 
-                                                then 0
-                                            else if val > 255
-                                                then 255
+                                Just val -> if val < 0 then 0
+                                            else if val > 255 then 255
                                             else val
 
         sink output [textBgcolor :== resultColor]   
